@@ -1,0 +1,122 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 50px;
+    border-collapse: collapse;
+}
+
+.header td {
+    background-color: #f6b982;
+    text-align: center;
+    border: 1.5px solid black;
+    font-size: 20px;
+}
+
+.logo {
+    width: 16%;
+}
+
+/* Navigation */
+.nav {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nav td {
+    background-color: #fbe8d8;
+    text-align: center;
+    border: 1.5px solid black;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #a34d12;
+}
+
+/* Main Layout */
+.main {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.main td {
+    border: 1.5px solid black;
+}
+
+/* Left Sidebar */
+.side-menu {
+    width: 16%;
+    padding: 10px;
+    font-size: 18px;
+    vertical-align: top;
+    line-height: 2;
+}
+
+/* Main Content */
+.content {
+    width: 84%;
+    height: 450px;
+    padding: 0;
+    vertical-align: top;
+    background-image: url("lib.png.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Iframe */
+.content iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+    border: none;
+    background-color: white;
+}
+
+.login-box {
+    width: 350px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.login-box h3 {
+    margin-bottom: 25px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    gap: 15px;
+}
+
+.form-row input {
+    width: 170px;
+    padding: 4px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 5px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
